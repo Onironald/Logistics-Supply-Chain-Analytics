@@ -42,7 +42,7 @@ The analysis focuses on four major areas:
 
 ## Executive KPIs
 
-| KPI                     |      Value |
+| **KPI**                 |  **Value** |
 | ----------------------- | ---------: |
 | Records / Orders        |        100 |
 | Total Revenue           | 577,604.86 |
@@ -118,11 +118,11 @@ Inventory Movement Ratio = Units Sold / Stock Level
 
 **Inventory Status**
 
-| Stock Level | Status       |
-| ----------: | ------------ |
-|           0 | Out of Stock |
-|        1–20 | Low Stock    |
-|         >20 | Adequate     |
+| **Stock Level** | **Status**   |
+| --------------- | ------------ |
+| 0               | Out of Stock |
+| 1–20            | Low Stock    |
+| >20             | Adequate     |
 
 **Logistics Cost %**
 
@@ -144,11 +144,11 @@ The analysis identified:
 
 ### Product Category Performance
 
-| Product Category | Avg. Units Sold | Avg. Stock |
-| ---------------- | --------------: | ---------: |
-| Skincare         |          518.28 |      40.20 |
-| Cosmetics        |          452.19 |      58.65 |
-| Haircare         |          400.32 |      48.35 |
+| **Product Category** | **Avg. Units Sold** | **Avg. Stock** |
+| -------------------- | ------------------: | -------------: |
+| Skincare             |              518.28 |          40.20 |
+| Cosmetics            |              452.19 |          58.65 |
+| Haircare             |              400.32 |          48.35 |
 
 **Key insight:** Skincare recorded the highest average units sold while maintaining a relatively lower average stock level, creating a potential replenishment risk.
 
@@ -158,13 +158,13 @@ The analysis identified:
 
 Supplier performance was evaluated using logistics cost, supplier lead time, and inspection outcomes.
 
-| Supplier   | Avg. Logistics Cost | Avg. Supplier Lead Time |
-| ---------- | ------------------: | ----------------------: |
-| Supplier 1 |              574.85 |              14.80 days |
-| Supplier 2 |              515.03 |              18.55 days |
-| Supplier 3 |              468.80 |              20.13 days |
-| Supplier 4 |              521.81 |                ~17 days |
-| Supplier 5 |              536.02 |              18.06 days |
+| **Supplier** | **Avg. Logistics Cost** | **Avg. Supplier Lead Time** |
+| ------------ | ----------------------: | --------------------------: |
+| Supplier 1   |                  574.85 |                  14.80 days |
+| Supplier 2   |                  515.03 |                  18.55 days |
+| Supplier 3   |                  468.80 |                  20.13 days |
+| Supplier 4   |                  521.81 |                    ~17 days |
+| Supplier 5   |                  536.02 |                  18.06 days |
 
 Supplier 3 recorded the lowest average logistics cost but also the longest average supplier lead time.
 
@@ -187,12 +187,12 @@ This indicates that Supplier 4 requires closer operational review.
 
 Transportation modes were compared based on average logistics cost and shipping time.
 
-| Transportation Mode | Avg. Logistics Cost | Avg. Shipping Time |
-| ------------------- | ------------------: | -----------------: |
-| Sea                 |              417.82 |          7.12 days |
-| Road                |              553.39 |          4.72 days |
-| Rail                |              541.75 |          6.57 days |
-| Air                 |              561.71 |          5.12 days |
+| **Transportation Mode** | **Avg. Logistics Cost** | **Avg. Shipping Time** |
+| ----------------------- | ----------------------: | ---------------------: |
+| Sea                     |                  417.82 |              7.12 days |
+| Road                    |                  553.39 |              4.72 days |
+| Rail                    |                  541.75 |              6.57 days |
+| Air                     |                  561.71 |              5.12 days |
 
 **Key insight:** Sea transportation had the lowest average logistics cost but the longest average shipping time. Road transportation had a shorter average shipping time but a higher average logistics cost.
 
@@ -204,13 +204,13 @@ This demonstrates a clear cost-versus-speed trade-off.
 
 Average logistics costs varied considerably by location.
 
-| Location  | Avg. Logistics Cost |
-| --------- | ------------------: |
-| Chennai   |              621.75 |
-| Bangalore |              586.71 |
-| Delhi     |              548.24 |
-| Kolkata   |              491.27 |
-| Mumbai    |              428.34 |
+| **Location** | **Avg. Logistics Cost** |
+| ------------ | ----------------------: |
+| Chennai      |                  621.75 |
+| Bangalore    |                  586.71 |
+| Delhi        |                  548.24 |
+| Kolkata      |                  491.27 |
+| Mumbai       |                  428.34 |
 
 Chennai and Bangalore recorded the highest average logistics costs in the dataset, making them areas for further operational investigation.
 
@@ -243,7 +243,7 @@ Provides a high-level view of:
 * Shipping performance
 * Overall operational KPIs
 
-[View Executive Overview](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/blob/main/screenshots/executive_overview.png) ([image](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/raw/main/screenshots/executive_overview.png))
+![Executive Overview](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/raw/main/screenshots/executive_overview.png)
 
 ---
 
@@ -258,7 +258,7 @@ Focuses on:
 * Inventory movement
 * High-demand products
 
-[View Inventory & Product Analysis](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/blob/main/screenshots/inventory_product_analysis.png) ([image](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/raw/main/screenshots/inventory_product_analysis.png))
+![Inventory & Product Analysis](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/raw/main/screenshots/inventory_product_analysis.png)
 
 ---
 
@@ -274,13 +274,13 @@ Analyzes:
 * Regional logistics performance
 * Inspection results
 
-[View Supplier & Logistics Performance](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/blob/main/screenshots/supplier_logistics_performance.png) ([image](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/raw/main/screenshots/supplier_logistics_performance.png))
+![Supplier & Logistics Performance](https://github.com/Onironald/Logistics-Supply-Chain-Analytics/raw/main/screenshots/supplier_logistics_performance.png)
 
 ---
 
 # Tools & Technologies
 
-| Tool            | Purpose                                                                               |
+| **Tool**        | **Purpose**                                                                           |
 | --------------- | ------------------------------------------------------------------------------------- |
 | **SQL**         | Data cleaning, transformation, validation, exploratory analysis, and KPI calculations |
 | **Power BI**    | Interactive dashboard development and visualization                                   |
